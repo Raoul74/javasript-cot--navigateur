@@ -1,0 +1,128 @@
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: 1.4s ease;
+    -webkit-transition: 1.4s ease;
+    -moz-transition: 1.4s ease;
+    -ms-transition: 1.4s ease;
+    -o-transition: 1.4s ease; */
+}
+
+
+
+.box{
+    background-color: rgb(196, 56, 56);
+    padding: 40px;
+    text-align:center; 
+    margin: 15px;  
+     
+}
+
+h4{
+    color:white ;
+    margin-bottom: 10px;
+
+}
+p{
+    color:white ;
+    margin-top: 10px;
+    font-size: 23px;
+    visibility: hidden;
+    opacity:0;
+    transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    -o-transform: translateX(-200px);
+}
+
+.show-response{
+    visibility: visible;
+    opacity:70%;
+    
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 23px;
+    margin: 0 5px;
+    border-radius: 7px;  
+}
+.question-click{
+    background-color:rgb(175, 175, 4);
+    border: 15px solid pink;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    
+}
+
+
+
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    position: absolute;
+   
+    z-index: -1;
+    background-color: rgb(233, 233, 238);
+    transform: translate(-50%,-50%);
+}
+
+
+body{
+    min-height: 200vh;
+}
+
+#menu{
+    background: rgb(243, 9, 192);
+    padding: 10px 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: -100px; 
+    transition: 0.3s ease;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    color: rgb(253, 247, 247);
+    font-size: 25px;
+}
+
+
+
+
+
+
